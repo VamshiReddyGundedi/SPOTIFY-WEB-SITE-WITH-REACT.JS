@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.help{
+    text-align: center;
+    font-weight: bolder;
+    font-weight: bolder;
+    font-size: 60px;
+    color: white;
+}
+.acount{
+    background-color: azure;
+    padding: 20px 70px 30px 70px;
+    border-radius: 20px;
+}
+.acount:hover{
+    transform: scale(0.8);
+    transition: 1s;
+}
+.premium{
+    background-color: rgb(255, 119, 0);
+    width: Fit-content;
+    padding: 40px 70px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 1s;
+}
+.premium:hover{
+    transform: scale(0.8);
+    transition: 1s;
+}
+.payment{
+    background-color: rgb(204, 0, 255);
+    width: Fit-content;
+    padding: 40px 70px;
+    border-radius: 20px;
+    cursor: pointer;
+     transition: 1s;
+}
+.payment:hover{
+    transform: scale(0.8);
+    transition: 1s;
+}
+.bugs{
+    background-color: rgb(170, 0, 255);
+    width: Fit-content;
+    padding: 40px 70px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 1s;
+}
+.bugs:hover{
+    transform: scale(0.8);
+    transition: 1s;
+}
+.music{
+    background-color:coral;
+    width: Fit-content;
+    padding: 40px 70px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 1s;
+}
+.music:hover{
+    transform: scale(0.8);
+    transition: 1s;
+}
+.artist{
+    background-color:rgb(225, 56, 56);
+    width: Fit-content;
+    padding: 40px 70px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 1s;
+}
+.artist:hover{
+    transform: scale(0.8);
+    transition: 1s;
+}
+.help-main{
+    background-color: black;
+}
+.spotify-help{
+    margin-top: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 300px;
+    padding:30px;
+    gap: 20px;
+}
+.spotify-help1{
+    display: flex;
+    margin-left: 300px;
+    padding: 30px;
+    gap: 30px;
+}
+.questions{
+    background-color: rgb(65, 63, 63);
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    
+}
+.questions i{
+    color: black;
+    margin-left: 60px;
+}
+.questions h3:hover{
+    color: rgb(174, 170, 170);
+}
