@@ -1,0 +1,86 @@
+body{
+    background-color:black;
+}
+.login-page{
+    text-align: center;
+    background-color: black;  
+    margin-left: 450px;
+    margin-top: 50px;
+    width: fit-content;
+    border-radius: 20px;
+    padding: 100px;
+}
+.login-page h1{
+    color: white;
+    margin-bottom: 50px;
+}
+.google,.apple,.facebook,.phon{
+    padding: 20px;
+}
+.google,.facebook,.apple, i{
+    color: chartreuse;
+    font-size: 20px;
+}
+.google button{
+    padding: 15px 80px;
+    border-radius:20px ;
+    background-color: black;
+    color: white;
+    border: 0.5px solid;
+}
+
+.facebook button{
+    padding: 15px 70px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    border: 0.5px solid;
+}
+
+.apple button{
+    padding: 15px 85px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    border: 0.5px solid;
+}
+
+.phon button{
+    padding: 15px 80px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    border: 0.5px solid;
+    
+}
+.mail i{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 200px;
+}
+.mail label{
+    color: white;
+    margin-right: 90px;
+    font-size: 17px;
+}
+.mail input{
+    padding: 5px 30px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    border: 0.5px solid;
+}
+hr{
+    color: white;
+}
+.mail button{
+    margin: 15px;
+    padding: 10px 50px;
+    border-radius: 20px;
+    background-color: rgb(52, 203, 52);
+    border: 0;
+    color: white;
+}
+.label1{
+    margin-left:-70px;
+}
