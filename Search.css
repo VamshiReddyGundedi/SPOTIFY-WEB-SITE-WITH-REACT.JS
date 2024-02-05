@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.search{
+    text-align: center;
+    
+}
+.search-page{
+   background-color: black;
+}
+.search input{
+    padding:10px 100px;
+    border-radius: 20px;
+}
+.search i{
+    position: absolute;
+    margin-top: 18px;
+    margin-left: 55px;
+}
+.search-songs{
+    text-align: center;
+    margin-top: 20px;
+    display:flex;
+    justify-content: space-around;
+    color: white;
+    background-color:black;
+}
+.telugu{
+    background-color:cadetblue;
+    width: Fit-content;
+    padding: 40px 70px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 1s;
+}
+.telugu:hover{
+    transform: scale(0.8);
+    transition: 1s;
+}
+.hindi{
+    background-color:chocolate;
+    width: Fit-content;
+    padding: 40px 70px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 1s;
+}
+.hindi:hover{
+    transform: scale(0.8);
+    transition: 1s;
+}
+.english{
+    background-color:coral;
+    width: Fit-content;
+    padding: 40px 70px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 1s;
+}
+.english:hover{
+    transform: scale(0.8);
+    transition: 1s;
+}
+.tamil{
+    background-color:darkcyan;
+    width: Fit-content;
+    padding: 40px 70px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 1s;
+}
+.tamil:hover{
+    transform: scale(0.8);
+    transition: 1s;
+}
+.album{
+    display:flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    justify-content: space-around;
+    gap:30px;
+}
+.album img:hover{
+    transform: scale(0.8);
+    transition: 1s;
+}
+.album img{
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 1s;
+}
+.album h3{
+    color: white;
+    text-align: center;
+}
