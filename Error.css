@@ -1,0 +1,10 @@
+.error{
+   text-align: center;
+   background-color:black;
+   border: 0;
+}
+.btn{
+   margin-bottom: 30px;
+   margin-left: 20px;
+   gap: 10px;
+}
