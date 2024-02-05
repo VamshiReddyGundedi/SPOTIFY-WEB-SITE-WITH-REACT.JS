@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}  
+.Album{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    padding:20px;
+}
+.futter{
+    display: flex;
+    justify-content: space-around;
+    color:white;
+    background-color: black;
+}
+.futter p{
+    color: white;
+    font-size:20px;
+    font-weight: bolder;
+}
+.company{
+    margin-top:50px;
+}
+.communities{
+    margin-top:50px;
+}
+.useful{
+    margin-top:50px;
+}
+.company h6{
+    cursor: pointer;
+    margin: 20px;
+}
+.company h6:hover{
+    color: rgb(112, 111, 111);
+}
+.communities h6{
+    cursor: pointer;
+    margin: 20px;
+}
+.communities h6:hover{
+    color: rgb(112, 111, 111);
+}
+.useful h6{
+    cursor: pointer;
+    margin: 20px;
+}
+.useful h6:hover{
+    color: rgb(112, 111, 111);
+}
+.social{
+    margin-top: 50px;
+    padding: 20px;
+    cursor: pointer;
+}
+.social:hover{
+    color: rgb(108, 107, 107);
+}
+.card:hover{
+    box-shadow:4px 3px 15px rgb(195, 191, 191);
+    transform: scale(0.9);
+  
+}
+.card{
+    transition: 1s;
+}
+.card-body{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.Album img{
+    width: 250px;
+    margin-left: 18px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.benifits{
+    display: flex;
+    justify-content: space-around;
+    margin: 100px;
+}
+.benifits img{
+    transition: 1s;
+
+}
+.benifits img:hover{
+    transform: scale(0.9);
+}
