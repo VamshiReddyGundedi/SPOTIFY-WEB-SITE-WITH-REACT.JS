@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.download{
+    text-align: center;
+    margin-top:100px;
+}
+.laptop{
+    width: 30%;
+}
+.circle{
+    position: absolute;
+    width: 5%;
+    top: 37%;
+    left: 47.5%;
+}
+.success{
+    position: absolute;
+    width: 2%;
+    top: 40.5%;
+    left: 48.9%;  
+}
+.microsoft{
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+    font-size: 20px;
+}
+.microsoft h1{
+    font-size: 90px;
+}
+.microsoft button{
+    border-radius: 10px;
+    border: 0;
+    background-color:rgb(71, 185, 71);
+}
+.microsoft button h2{
+    color: rgb(8, 8, 8);
+    margin-left: 50px;
+    margin-right: 10px;
+}
+.microsoft button  i{
+    position: absolute;
+    top: 700px;
+    left: 655px;
+    font-size: 40px;
+}
+.link {
+    text-align: center;
+    margin-top: 50px;
+}
+.link a{
+    color: white;
+}
